@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="870.0" prefWidth="1290.0" style="-fx-background-color: #f4f4fc;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dm.DashboardController">
+   <left>
+      <VBox alignment="CENTER" prefHeight="865.0" prefWidth="167.0" spacing="20.0" style="-fx-background-color: #fff;" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER" layoutY="268.0" prefHeight="55.0" prefWidth="200.0" spacing="10.0" style="-fx-background-color: #f4f4fc; -fx-background-radius: 50 0 0 50;">
+               <children>
+                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../Pictures/home.png" />
+                     </image>
+                  </ImageView>
+                  <Label prefHeight="24.0" prefWidth="111.0" text="Home">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="55.0" prefWidth="200.0" spacing="10.0" style="-fx-background-color: #f4f4fc; -fx-background-radius: 50 0 0 50;">
+               <children>
+                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../Pictures/staff.png" />
+                     </image>
+                  </ImageView>
+                  <Label prefHeight="24.0" prefWidth="135.0" text="Staff">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="10.0" prefHeight="55.0" prefWidth="200.0" spacing="10.0" style="-fx-background-color: #f4f4fc;">
+               <children>
+                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../Pictures/staff.png" />
+                     </image>
+                  </ImageView>
+                  <Label prefHeight="24.0" prefWidth="135.0" text="Customer">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutY="65.0" prefHeight="55.0" prefWidth="200.0" spacing="10.0" style="-fx-background-color: #f4f4fc; -fx-border-radius: 50 0 0 50;">
+               <children>
+                  <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../Pictures/item.png" />
+                     </image>
+                  </ImageView>
+                  <Label prefHeight="24.0" prefWidth="115.0" text="Item">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="10.0" prefHeight="55.0" prefWidth="200.0" spacing="10.0" style="-fx-background-color: #f4f4fc; -fx-border-radius: 50 0 0 50;">
+               <children>
+                  <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../Pictures/help.png" />
+                     </image>
+                  </ImageView>
+                  <Label prefHeight="24.0" prefWidth="115.0" text="Help">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutY="175.0" prefHeight="55.0" prefWidth="200.0" spacing="10.0" style="-fx-background-color: #f4f4fc; -fx-border-radius: 50 0 0 50;">
+               <children>
+                  <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../Pictures/logout.png" />
+                     </image>
+                  </ImageView>
+                  <Label prefHeight="24.0" prefWidth="115.0" text="Logout">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </VBox>
+   </left>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" spacing="20.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="75.0" prefWidth="1115.0" spacing="20.0">
+               <children>
+                  <HBox alignment="CENTER" maxHeight="-Infinity" prefHeight="40.0" prefWidth="271.0" style="-fx-background-color: #fff; -fx-border-color: #c2c2c2;">
+                     <children>
+                        <Button mnemonicParsing="false" style="-fx-background-color: #fff;" />
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../../../Pictures/search.jpg" />
+                           </image>
+                        </ImageView>
+                        <TextField prefHeight="25.0" prefWidth="199.0" promptText="search" style="-fx-background-color: rgba(0,0,0,0);" text="Search" />
+                     </children>
+                  </HBox>
+                  <Pane prefHeight="75.0" prefWidth="572.0" HBox.hgrow="ALWAYS" />
+                  <HBox alignment="CENTER" spacing="5.0">
+                     <children>
+                        <ImageView fitHeight="45.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../../../Pictures/person.png" />
+                           </image>
+                        </ImageView>
+                        <Label prefHeight="20.0" prefWidth="166.0" text="Myo Khant Kyaw" textFill="#5a5a5a">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="205.0" prefWidth="1055.0" style="-fx-background-color: #fff; -fx-background-radius: 10;">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="205.0" prefWidth="361.0">
+                     <children>
+                        <Label alignment="CENTER" text="Welcome &#10;Myo Khant Kyaw" textAlignment="CENTER" textFill="#5a5a5a">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" text="We are happy to see you here" textAlignment="CENTER" textFill="#5a5a5a">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <ImageView fitHeight="270.0" fitWidth="270.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../Pictures/main-logo.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+            <VBox prefHeight="200.0" prefWidth="1063.0" spacing="10.0">
+               <children>
+                  <Label alignment="CENTER" text="Clothing" textAlignment="CENTER" textFill="#5a5a5a">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <HBox prefHeight="167.0" prefWidth="1063.0" spacing="10.0" style="-fx-background-color: #fff;">
+                     <children>
+                        <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="245.0" spacing="5.0">
+                           <children>
+                              <ImageView fitHeight="134.0" fitWidth="128.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../../../Pictures/cloth-2.png" />
+                                 </image>
+                              </ImageView>
+                              <Label alignment="CENTER" text="Cloth-1" textAlignment="CENTER" textFill="#5a5a5a">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets left="5.0" />
+                                 </padding>
+                              </Label>
+                              <ImageView fitHeight="59.0" fitWidth="118.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../../../Pictures/give-5-star.jpg" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                        </VBox>
+                        <VBox alignment="TOP_CENTER" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="245.0" spacing="5.0">
+                           <children>
+                              <ImageView fitHeight="134.0" fitWidth="128.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../../../Pictures/cloth-1.png" />
+                                 </image>
+                              </ImageView>
+                              <Label alignment="CENTER" text="Cloth-2" textAlignment="CENTER" textFill="#5a5a5a">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets left="5.0" />
+                                 </padding>
+                              </Label>
+                              <ImageView fitHeight="59.0" fitWidth="118.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../../../Pictures/give-5-star.jpg" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                        </VBox>
+                        <VBox alignment="TOP_CENTER" layoutX="255.0" layoutY="10.0" prefHeight="200.0" prefWidth="245.0" spacing="5.0">
+                           <children>
+                              <ImageView fitHeight="134.0" fitWidth="128.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../../../Pictures/cloth-3.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label alignment="CENTER" text="Cloth-3" textAlignment="CENTER" textFill="#5a5a5a">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets left="5.0" />
+                                 </padding>
+                              </Label>
+                              <ImageView fitHeight="59.0" fitWidth="118.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../../../Pictures/give-5-star.jpg" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                        </VBox>
+                        <VBox alignment="TOP_CENTER" layoutX="500.0" layoutY="10.0" prefHeight="200.0" prefWidth="245.0" spacing="5.0">
+                           <children>
+                              <ImageView fitHeight="134.0" fitWidth="128.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../../../Pictures/cloth-4.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label alignment="CENTER" text="Cloth-4" textAlignment="CENTER" textFill="#5a5a5a">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets left="5.0" />
+                                 </padding>
+                              </Label>
+                              <ImageView fitHeight="59.0" fitWidth="118.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../../../Pictures/give-5-star.jpg" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                        </VBox>
+                        <VBox alignment="TOP_CENTER" layoutX="745.0" layoutY="10.0" prefHeight="200.0" prefWidth="245.0" spacing="5.0">
+                           <children>
+                              <ImageView fitHeight="134.0" fitWidth="128.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../../../Pictures/cloth-5.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label alignment="CENTER" text="Cloth-5" textAlignment="CENTER" textFill="#5a5a5a">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets left="5.0" />
+                                 </padding>
+                              </Label>
+                              <ImageView fitHeight="59.0" fitWidth="118.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../../../Pictures/give-5-star.jpg" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox layoutX="40.0" layoutY="345.0" prefHeight="200.0" prefWidth="1063.0" spacing="10.0">
+               <children>
+                  <Label alignment="CENTER" text="Electronic Accessories" textAlignment="CENTER" textFill="#5a5a5a">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <HBox prefHeight="167.0" prefWidth="1063.0" spacing="10.0" style="-fx-background-color: #fff;">
+                     <children>
+                        <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="245.0" spacing="5.0">
+                           <children>
+                              <ImageView fitHeight="134.0" fitWidth="128.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../../../Pictures/samsaung.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label alignment="CENTER" text="Samsaung S22" textAlignment="CENTER" textFill="#5a5a5a">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets left="5.0" />
+                                 </padding>
+                              </Label>
+                              <ImageView fitHeight="59.0" fitWidth="118.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../../../Pictures/give-5-star.jpg" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                        </VBox>
+                        <VBox alignment="TOP_CENTER" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="245.0" spacing="5.0">
+                           <children>
+                              <ImageView fitHeight="134.0" fitWidth="128.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../../../Pictures/redmi.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label alignment="CENTER" text="Redmi 13" textAlignment="CENTER" textFill="#5a5a5a">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets left="5.0" />
+                                 </padding>
+                              </Label>
+                              <ImageView fitHeight="59.0" fitWidth="118.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../../../Pictures/give-5-star.jpg" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                        </VBox>
+                        <VBox alignment="TOP_CENTER" layoutX="255.0" layoutY="10.0" prefHeight="200.0" prefWidth="245.0" spacing="5.0">
+                           <children>
+                              <ImageView fitHeight="150.0" fitWidth="128.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../../../Pictures/iphone.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label alignment="CENTER" text="Iphone 15" textAlignment="CENTER" textFill="#5a5a5a">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets left="5.0" />
+                                 </padding>
+                              </Label>
+                              <ImageView fitHeight="59.0" fitWidth="118.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../../../Pictures/give-5-star.jpg" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                        </VBox>
+                        <VBox alignment="TOP_CENTER" layoutX="500.0" layoutY="10.0" prefHeight="200.0" prefWidth="245.0" spacing="5.0">
+                           <children>
+                              <ImageView fitHeight="134.0" fitWidth="128.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../../../Pictures/msi-laptop.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label alignment="CENTER" text="MSI laptop" textAlignment="CENTER" textFill="#5a5a5a">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets left="5.0" />
+                                 </padding>
+                              </Label>
+                              <ImageView fitHeight="59.0" fitWidth="118.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../../../Pictures/give-5-star.jpg" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                        </VBox>
+                        <VBox alignment="TOP_CENTER" layoutX="745.0" layoutY="10.0" prefHeight="200.0" prefWidth="245.0" spacing="5.0">
+                           <children>
+                              <ImageView fitHeight="134.0" fitWidth="128.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../../../Pictures/airpod.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label alignment="CENTER" text="Airpod pro" textAlignment="CENTER" textFill="#5a5a5a">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets left="5.0" />
+                                 </padding>
+                              </Label>
+                              <ImageView fitHeight="59.0" fitWidth="118.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../../../Pictures/give-5-star.jpg" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets left="30.0" right="30.0" />
+         </padding>
+      </VBox>
+   </center>
+</BorderPane>

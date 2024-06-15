@@ -1,0 +1,11 @@
+.button {
+	-fx-base: tomato;
+	-fx-background-radius: 20;
+}
+#container {
+	-fx-background-color: lime;
+	-fx-padding: 5;
+	-fx-border-color: blue;
+	-fx-border-width: 5;
+	-fx-font-size: 14;
+}
